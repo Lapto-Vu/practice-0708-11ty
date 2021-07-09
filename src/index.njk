@@ -1,0 +1,9 @@
+---
+title : something
+layout : "base.njk"
+---
+<main>
+    {% for article in res.articles %}
+        <div>{{ article.title }}</div>
+    {% endfor %}
+</main>
